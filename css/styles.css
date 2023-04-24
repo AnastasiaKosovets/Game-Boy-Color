@@ -17,4 +17,24 @@ body {
     box-shadow: 20px 5px 5px 5px rgba(15, 198, 15, 0.458);
     border-radius: 5% 5% 15% 15%;
     background: linear-gradient(to right, rgb(167, 237, 167), rgb(96, 224, 60) 50%);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.firstPart {
+    height: 30em;
+    width: 30em;
+    border: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blackSquare {
+    height: 25em;
+    width: 30em;
+    margin: auto;
+    background: black;
+    border-radius: 5% 5% 15% 15%;
 }
