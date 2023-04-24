@@ -37,4 +37,61 @@ body {
     margin: auto;
     background: black;
     border-radius: 5% 5% 15% 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
 }
+
+.powerButton {
+    height: 15px;
+    width: 15px;
+    background: rgb(92, 2, 2);
+    margin-top: -10em;
+    margin-right: -1em;
+    border-radius: 50%;
+
+}
+
+.screen {
+    height: 18em;
+    width: 18em;
+    background: rgb(162, 161, 161);
+    margin-bottom: 4em;
+}
+
+/* .nintendoName{  
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-self: flex-end;
+}
+*/
+    
+
+    
+
+h1 {
+    font-size: small;
+    color: gray;
+}
+
+.c {
+    font-size: small;
+    color: red;
+ }
+ .o {
+    font-size: small;
+    color: purple;
+ }
+ .l {
+    font-size: small;
+    color: greenyellow;
+ }
+ .o1 {
+    font-size: small;
+    color: yellow;
+ }
+ .r {
+    font-size: small;
+    color: blue;
+ }
