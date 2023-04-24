@@ -1,6 +1,20 @@
 
 body {
-    height: 400px;
-    width: 700px;
-    background: black;
+    height: 53em;
+    width: 53em;
+    margin: auto;
+    padding: 2em;
+    
+}
+
+/* Here we make style of the first part of Nintendo Console */
+
+.bodyNintendo {
+    height: 50em;
+    width: 35em;
+    background: rgb(96, 224, 60);
+    margin: auto;
+    box-shadow: 20px 5px 5px 5px rgba(15, 198, 15, 0.458);
+    border-radius: 5% 5% 15% 15%;
+    background: linear-gradient(to right, rgb(167, 237, 167), rgb(96, 224, 60) 50%);
 }
