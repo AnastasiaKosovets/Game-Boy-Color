@@ -188,6 +188,8 @@ body {
     margin-top: 0.5em;
  }
 
+ /* Here we add css style fot the secondMiddlePart */
+
  .secondMiddlePart {
     height: 9em;
     width: 30em;
@@ -198,7 +200,13 @@ body {
     height: 9em;
     width: 10em;
     background-color: gray;
+    display: flex;
+ }
 
+ .a1 {
+    height: 2em;
+    width: 4em;
+    background-color: peru;
  }
 
  .middleMiddlePart {
@@ -220,9 +228,6 @@ body {
     background: rgb(71, 11, 11);
     
  }
-
-
-
 
 
 
