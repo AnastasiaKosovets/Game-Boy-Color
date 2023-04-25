@@ -144,20 +144,22 @@ body {
  #middlePart {
     height: 10em;
     width: 30em;
-    background: black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
  }
+
+ /* Putting css style for Nintendo Logo middle part */
 
  .nintendoLogoSpace {
     height: 3em;
     width: 30em;
-    background: yellow;
     margin-top: -7em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1.3em;
  }
 
  .logoSpace {
@@ -166,19 +168,50 @@ body {
  }
 
  .nintendoLogo { 
-    height: 1.5em;
-    width: 8em;
-    
+    height: 2em;
+    width: 10em;
+    margin-top: 1em;
     display: flex;
     align-items: center;
-    font-weight: bold;
-    font-size: 1.3em;
-    font-family:Arial, Helvetica, sans-serifss;
-    border: solid green;
+    box-shadow: 0em 0em 0.2em 0.2em rgba(22, 167, 22, 0.556);
+    color: rgba(22, 167, 22, 0.556);
     border-radius: 1em;
  }
 
-  
+ .nintendoMiddle {
+    height: 1.5em;
+    width: 8em;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family:Arial, Helvetica, sans-serifss;
+    margin-left: 1em;
+    margin-top: 0.5em;
+ }
+
+ .secondMiddlePart {
+    height: 9em;
+    width: 30em;
+    display: flex;
+ }
+
+ .leftMiddlePart {
+    height: 9em;
+    width: 10em;
+    background-color: gray;
+
+ }
+
+ .middleMiddlePart {
+    height: 9em;
+    width: 10em;
+ }
+
+ .rightMiddlePart {
+    height: 9em;
+    width: 10em;
+    background-color: rgb(56, 46, 46);
+    
+ }
 
 
  #secondPart {
