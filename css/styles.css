@@ -299,10 +299,45 @@ body {
     width: 10em;
  }
 
+ /* Here we start with css style of the button B & A of Nintendo */
+
  .rightMiddlePart {
     height: 9em;
     width: 10em;
-    background-color: rgb(56, 46, 46);
+    display: flex;
+ }
+
+ .buttonB, .buttonA {
+    height: 4em;
+    width: 4em;
+    background-color: #353433;
+    border-radius: 50%;
+ }
+
+ .buttonB {
+    margin-top: 2.5em;
+    box-shadow: 1em 0.5em 1em 0 rgba(52, 50, 50, 0.529);
+ }
+
+ .buttonLetterB {
+    width: 3em;
+    height: 4em;
+    font-size: 3em;
+    margin-top: 0.1em;
+    margin-left: 0.3em;
+ }
+
+ .buttonA {
+    margin-left: 1em;
+    box-shadow: 1em 0.5em 1em 0 rgba(52, 50, 50, 0.529);
+ }
+
+ .buttonLetterA {
+    width: 3em;
+    height: 4em;
+    font-size: 3em;
+    margin-top: 0.1em;
+    margin-left: 0.3em;
  }
 
  #secondPart {
