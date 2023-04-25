@@ -14,8 +14,9 @@ body {
     width: 35em;
     background: rgb(96, 224, 60);
     margin: auto;
-    box-shadow: 20px 5px 5px 5px rgba(15, 198, 15, 0.458);
+    box-shadow: 20px 5px 5px 5px rgba(132, 135, 132, 0.458);
     border-radius: 5% 5% 15% 15%;
+    
     background: linear-gradient(to right, rgb(167, 237, 167), rgb(96, 224, 60) 50%);
     display: flex;
     align-items: flex-start;
@@ -31,6 +32,9 @@ body {
     align-items: center;
 }
 
+.firstPartScreen {
+    display: flex;
+}
 .blackSquare {
     height: 25em;
     width: 30em;
@@ -40,6 +44,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center; 
+    flex-direction: column;
 }
 
 .powerButton {
@@ -67,9 +72,6 @@ body {
 }
 */
     
-
-    
-
 h1 {
     font-size: small;
     color: gray;
@@ -94,4 +96,10 @@ h1 {
  .r {
     font-size: small;
     color: blue;
+ }
+
+ /* .middlePart { */
+    height: 6em;
+    width: 6em;
+    background: black;
  }
