@@ -21,7 +21,7 @@ body {
     justify-content: flex-start;
 }
 
-/* Here we make style of the first part of Nintendo Console */
+/* Here I made style of the first part of Nintendo Console */
 
 #firstPart {
     height: 30em;
@@ -51,6 +51,8 @@ body {
     flex-direction: column;
 }
 
+/* Here I made css style of flash power Button */
+
 .powerButton {
     height: 15px;
     width: 15px;
@@ -60,6 +62,8 @@ body {
     background: rgb(107, 2, 2);
     box-shadow: 0em 0em 0.2em 0.2em rgb(45, 8, 8);
     border-radius: 50%;
+    animation-name: flash;
+    animation-duration: 10s;
 }
 
 .powerName {
@@ -74,6 +78,36 @@ body {
     align-items: end;
 
 }
+ 
+.animated {
+ -webkit-animation-duration: 10s;
+ animation-duration: 10s;
+ -webkit-animation-fill-mode: backwards;
+ animation-fill-mode: backwards;
+ animation-delay: 1s;
+}
+
+@-webkit-keyframes flash {
+ 0%, 50%, 100% {
+ opacity: 1;
+ }
+25%, 75% {
+ opacity: 0;
+ }
+}
+
+@keyframes flash {
+ 0%, 50%, 100% {
+ opacity: 1;
+ }
+25%, 75% {
+ opacity: 0;
+ }
+}
+.flash {
+ -webkit-animation-name: flash;
+ animation-name: flash;
+}
 
 .screen {
     height: 18em;
@@ -87,7 +121,7 @@ body {
     margin-top: 4em;
 }
 
-/* Here we make css style of the Nintendo Name part */
+/* Here I make css style of the Nintendo Name part */
 
 .nintendoName{  
     display: flex;
@@ -121,25 +155,28 @@ body {
     font-style: italic;
     color: rgb(195, 10, 136);
  }
+
  .o {
     font-size: small;
     color: rgb(71, 11, 131);
  }
+
  .l {
     font-size: small;
-
     color: rgb(158, 222, 61);
  }
+
  .o1 {
     font-size: small;
     color: rgb(255, 255, 61);
  }
+
  .r {
     font-size: small;
     color: rgb(96, 142, 243);
  }
 
- /* Here we start with css style of the middleParte of the console */
+ /* Here I start with css style of the middleParte of the console */
 
  #middlePart {
     height: 10em;
@@ -188,7 +225,7 @@ body {
     margin-top: 0.5em;
  }
 
- /* Here we add css style fot the secondMiddlePart */
+ /* Here I add css style fot the secondMiddlePart */
 
  .secondMiddlePart {
     height: 9em;
@@ -204,7 +241,7 @@ body {
     grid-gap: 0;
  }
 
-/* Here we made Nintendo buttons style */
+/* Here I made Nintendo buttons style */
 
  .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8, .a9  {
     height: 2.5em;
@@ -242,7 +279,6 @@ body {
     border-bottom: 1em solid transparent;
     border-right: 2em solid #353433;
     margin-top: 0.2em;
-    
  }
 
  .a5 {
@@ -299,7 +335,7 @@ body {
     width: 10em;
  }
 
- /* Here we start with css style of the button B & A of Nintendo */
+ /* Here I start with css style of the button B & A of Nintendo */
 
  .rightMiddlePart {
     height: 9em;
@@ -343,14 +379,8 @@ body {
  #secondPart {
     height: 8em;
     width: 30em;
-    background: rgb(71, 11, 11);
-    
  }
 
-
-
-
-    
  * {
     border: 0;
     margin: 0;
