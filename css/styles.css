@@ -235,11 +235,28 @@ body {
     margin-left: 1em;
  }
 
+ .left {
+    width: 0; 
+    height: 0; 
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    border-right: 2em solid #353433;
+    margin-top: 0.2em;
+    
+ }
+
  .a5 {
     height: 2.8em;
     width: 2.5em;
     background-color: rgb(114, 113, 113);
     box-shadow: 0 0 0.3em 0.3em rgb(114, 113, 113);
+ }
+
+ .center {
+    height: 2.4em;
+    width: 2.4em;
+    border-radius: 50%;
+    background-color: #353433;
  }
 
  .a6 {
