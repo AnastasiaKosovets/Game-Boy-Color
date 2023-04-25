@@ -7,8 +7,6 @@ body {
     
 }
 
-/* Here we make style of the first part of Nintendo Console */
-
 .bodyNintendo {
     height: 50em;
     width: 35em;
@@ -23,6 +21,8 @@ body {
     justify-content: flex-start;
 }
 
+/* Here we make style of the first part of Nintendo Console */
+
 #firstPart {
     height: 30em;
     width: 30em;
@@ -30,6 +30,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: -2em;
 }
 
 .firstPartScreen {
@@ -43,6 +44,7 @@ body {
     background: rgb(33, 32, 32);
     border: solid 0.3em black;
     border-radius: 5% 5% 15% 15%;
+    box-shadow: 0em 0.5em 0.5em 0.5em rgba(128, 128, 128, 0.449);
     display: flex;
     justify-content: space-around;
     align-items: center; 
@@ -55,14 +57,15 @@ body {
     margin-top: 10em;
     margin-right: -2em;
     margin-left: -6em;
-    background: rgb(92, 2, 2);
+    background: rgb(107, 2, 2);
+    box-shadow: 0em 0em 0.2em 0.2em rgb(45, 8, 8);
     border-radius: 50%;
 }
 
 .powerName {
     height: 3em;
     width: 3em;
-    color: white;
+    color: rgb(204, 204, 204);
     font-size: 1.1em;
     margin-top: 8.2em;
     margin-right: -3em;
@@ -84,6 +87,8 @@ body {
     margin-top: 4em;
 }
 
+/* Here we make css style of the Nintendo Name part */
+
 .nintendoName{  
     display: flex;
     justify-content: center;
@@ -103,7 +108,7 @@ body {
     font-size: 1.5em;
     font-style: italic;
     font-weight: bold;
-    color: gray;
+    color: rgb(167, 166, 166);
     margin-right: 1em;
 }
 
@@ -134,17 +139,60 @@ body {
     color: rgb(96, 142, 243);
  }
 
+ /* Here we start with css style of the middleParte of the console */
+
  #middlePart {
-    height: 8em;
+    height: 10em;
     width: 30em;
     background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
  }
+
+ .nintendoLogoSpace {
+    height: 3em;
+    width: 30em;
+    background: yellow;
+    margin-top: -7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .logoSpace {
+    height: 1.5em;
+    width: 8em;
+ }
+
+ .nintendoLogo { 
+    height: 1.5em;
+    width: 8em;
+    
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family:Arial, Helvetica, sans-serifss;
+    border: solid green;
+    border-radius: 1em;
+ }
+
+  
+
 
  #secondPart {
     height: 8em;
     width: 30em;
     background: rgb(71, 11, 11);
+    
  }
+
+
+
+
+
+
 
     
  * {
