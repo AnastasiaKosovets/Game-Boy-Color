@@ -1,7 +1,7 @@
 
 body {
-    height: 53em;
-    width: 53em;
+    height: 80vh;
+    width: 80vw;
     margin: auto;
     padding: 2em;
     
@@ -14,16 +14,15 @@ body {
     width: 35em;
     background: rgb(96, 224, 60);
     margin: auto;
-    box-shadow: 20px 5px 5px 5px rgba(132, 135, 132, 0.458);
+    box-shadow: 1em 1em 1em 1em  rgba(132, 135, 132, 0.458);
     border-radius: 5% 5% 15% 15%;
-    
     background: linear-gradient(to right, rgb(167, 237, 167), rgb(96, 224, 60) 50%);
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
 
-.firstPart {
+#firstPart {
     height: 30em;
     width: 30em;
     border: 3em;
@@ -35,6 +34,7 @@ body {
 .firstPartScreen {
     display: flex;
 }
+
 .blackSquare {
     height: 25em;
     width: 30em;
@@ -50,29 +50,38 @@ body {
 .powerButton {
     height: 15px;
     width: 15px;
+    margin-top: 6em;
+    margin-left: -6em;
     background: rgb(92, 2, 2);
-    margin-top: -10em;
-    margin-right: -1em;
     border-radius: 50%;
-
 }
 
 .screen {
     height: 18em;
     width: 18em;
+    padding: 3em;
     background: rgb(162, 161, 161);
     margin-bottom: 4em;
+    margin-left: 4em;
 }
 
-/* .nintendoName{  
+.nintendoName{  
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-self: flex-end;
+    justify-content: space-around;
+    align-items: ;
+    background: white;
+    height: 4em;
+    width: 20em;
+    margin-bottom: 3em;
 }
-*/
+
+.colorName {
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+}
     
-h1 {
+.gameBoy {
     font-size: small;
     color: gray;
 }
@@ -95,11 +104,18 @@ h1 {
  }
  .r {
     font-size: small;
-    color: blue;
+    color: rgb(6, 6, 238);
  }
 
- /* .middlePart { */
+ /* .middlePart {
     height: 6em;
     width: 6em;
     background: black;
  }
+  */
+    
+ * {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
