@@ -51,7 +51,7 @@ body {
     flex-direction: column;
 }
 
-/* Here I made css style of flash power Button */
+/* Here I made css style of power button and his  flash animation */
 
 .powerButton {
     height: 15px;
@@ -253,6 +253,10 @@ body {
     border-radius: 30% 30% 0% 0%;
     box-shadow: 0 0 0.2em 0.1em black;
     margin-top: 1em;
+ }
+ .a2:hover, .a4:hover, .a6:hover, .a8:hover, .buttonB:hover, .buttonA:hover {
+   background-color: #615d5a;
+   cursor: pointer;
  }
  
 .up {
