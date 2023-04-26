@@ -12,7 +12,8 @@ body {
     width: 35em;
     background: rgb(96, 224, 60);
     margin: auto;
-    box-shadow: 1em 1em 1em 1em  rgba(132, 135, 132, 0.458);
+    box-shadow: 1em 1em 1em 1em  rgba(64, 84, 64, 0.458);
+    /* box-shadow: 0 0 2em 1em rgba(9, 93, 9, 0.445); */
     border-radius: 5% 5% 15% 15%;
     background: linear-gradient(to right, rgb(167, 237, 167), rgb(96, 224, 60) 50%);
     display: flex;
