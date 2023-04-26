@@ -80,33 +80,37 @@ body {
 }
  
 .animated {
- -webkit-animation-duration: 10s;
- animation-duration: 10s;
- -webkit-animation-fill-mode: backwards;
- animation-fill-mode: backwards;
- animation-delay: 1s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
 }
 
 @-webkit-keyframes flash {
- 0%, 50%, 100% {
- opacity: 1;
+    0%, 50%, 100% {
+    opacity: 1;
  }
+
 25%, 75% {
- opacity: 0;
+    opacity: 0;
  }
+
 }
 
 @keyframes flash {
- 0%, 50%, 100% {
- opacity: 1;
+    0%, 50%, 100% {
+    opacity: 1;
  }
+
 25%, 75% {
- opacity: 0;
+    opacity: 0;
  }
+
 }
 .flash {
- -webkit-animation-name: flash;
- animation-name: flash;
+    -webkit-animation-name: flash;
+    animation-name: flash;
 }
 
 .screen {
@@ -254,10 +258,11 @@ body {
     box-shadow: 0 0 0.2em 0.1em black;
     margin-top: 1em;
  }
+
  .a2:hover, .a4:hover, .a6:hover, .a8:hover, .buttonB:hover, .buttonA:hover {
-   background-color: #615d5a;
-   cursor: pointer;
-   box-shadow: 0 0 0.2em 0 white;
+    background-color: #615d5a;
+    cursor: pointer;
+    box-shadow: 0 0 0.2em 0 white;
  }
  
 .up {
@@ -360,6 +365,7 @@ body {
  }
 
  .buttonB {
+    border: solid 0.1em gray;
     margin-top: 2.5em;
     box-shadow: 1em 0.5em 1em 0 rgba(52, 50, 50, 0.529);
  }
@@ -373,6 +379,7 @@ body {
  }
 
  .buttonA {
+    border: solid 0.1em gray;
     margin-left: 1em;
     box-shadow: 1em 0.5em 1em 0 rgba(52, 50, 50, 0.529);
  }
@@ -395,24 +402,42 @@ body {
  }
 
  .leftSecondPart {
-   width: 5em;
-   height: 5em;
+    width: 11em;
+    height: 11em;
  }
 
  .middleSecondPart {
-   width: 18em;
-   height: 8em;
-   background-color: #615d5a;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
+    width: 18em;
+    height: 8em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .selectButton, .startButton {
+    height: 1em;
+    width: 3.3em;
+    background-color: #353433;
+    border-radius: 1em;
+    border: solid 0.1em gray;
+    margin-top: 2.5em;
+    box-shadow: 1em 0.5em 1em 0 rgba(52, 50, 50, 0.529);
+ }
+
+ .selectButton:hover, .startButton:hover {
+    background-color: #615d5a;
+    cursor: pointer;
+    box-shadow: 0 0 0.2em 0 white;
  }
 
  .rightSecondPart {
-   width: 8em;
-   height: 8em;
-   background-color: #83481c;
+    width: 8em;
+    height: 8em;
+    background-color: #83481c;
  }
+
+
+
 
  * {
     border: 0;
