@@ -395,7 +395,7 @@ body {
 /* Here I start to modify second part of th console */
 
  #secondPart {
-    height: 8em;
+    height: em;
     width: 30em;
     margin-top: 2em;
     display: flex;
@@ -403,7 +403,7 @@ body {
 
  .leftSecondPart {
     width: 11em;
-    height: 11em;
+    height: 5em;
  }
 
  .middleSecondPart {
@@ -412,6 +412,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 3em;
  }
 
  .selectButton, .startButton {
@@ -430,12 +431,62 @@ body {
     box-shadow: 0 0 0.2em 0 white;
  }
 
+ .middleSecondPart .selectButton {
+   display: grid;
+}
+
+.finalPart {
+   height: 2em;
+   width: 10em;
+   display: flex;
+   justify-content: space-around;
+   margin-left: 1em;
+   margin-top: -1.6em;
+}
+
+
+.selectButtonName, .startButtonName {
+    height: 1em;
+    width: 2.9em;
+    font-weight: bold;
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serifss;
+    color: rgba(22, 167, 22, 0.556);
+}
+
  .rightSecondPart {
     width: 8em;
     height: 8em;
-    background-color: #83481c;
+    transform: rotate(-10deg);
+    margin-right: -3em;
+    margin-top: 2em;
  }
 
+ .point, .point3, .point5, .point7 {
+   height: 1em;
+   width: 8em;
+   color: #080808;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+
+ .point1, .point2, .point4, .point6  {
+   height: 1em;
+   width: 8em;
+   color: #615d5a;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+ .points {
+   height: 0.5em;
+   width: 0.5em;
+   background-color: aliceblue;
+   border-radius: 50%;
+   align-content: space-around;
+ }
 
 
 
