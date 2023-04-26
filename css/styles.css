@@ -117,9 +117,10 @@ body {
     height: 18em;
     width: 18em;
     padding: 3em;
-    border: solid 0.4em rgb(10, 10, 10);
+    /* border: solid 0.4em rgb(10, 10, 10); */
     /* background: rgb(162, 161, 161); */
-    background-image: linear-gradient(to bottom right rgb(158, 157, 157) rgba(53, 53, 53, 0.801));
+    box-shadow: 0 0 0.4em 0.1em black;
+    background-image: linear-gradient(to bottom right, rgb(158, 157, 157), rgba(53, 53, 53, 0.801));
     margin-bottom: 2em;
     margin-right: -4em;
     margin-left: 4em;
