@@ -462,19 +462,33 @@ body {
     margin-top: 2em;
  }
 
- .point, .point3, .point5, .point7 {
+ .pointsBlack {
+   height: 0.5em;
+   width: 0.5em;
+   border-radius: 50%;
+   background-color: rgb(47, 46, 46);
+   box-shadow: 0 0 0.4em 0.2em rgba(42, 42, 42, 0.438);
+ }
+
+ .pointsGreen {
+   height: 0.5em;
+   width: 0.5em;
+   border-radius: 50%;
+   background-color: rgba(49, 129, 3, 0.567);
+   box-shadow: 0 0 0.4em 0.2em rgba(128, 186, 94, 0.937);
+ }
+
+ .point1, .point3, .point5 {
    height: 1em;
    width: 8em;
-   color: #080808;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
  }
 
- .point1, .point2, .point4, .point6  {
+  .point2, .point4, .point6, .point7  {
    height: 1em;
    width: 8em;
-   color: #615d5a;
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -483,11 +497,9 @@ body {
  .points {
    height: 0.5em;
    width: 0.5em;
-   background-color: aliceblue;
    border-radius: 50%;
    align-content: space-around;
  }
-
 
 
  * {
