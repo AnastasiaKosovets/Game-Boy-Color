@@ -275,9 +275,11 @@ body {
    height: 3.5em;
    width: 3.5em;
  }*/
- .encenderPantalla{
-   
-   background-color: blue;
+ .screenOn {
+   background-color: white;
+   background-image: url(../img/nintendoLogo.gif);
+   background-repeat: no-repeat;
+   background-size: 19em;
  }
 
  active{
