@@ -7,6 +7,7 @@ body {
     background-image: url(../img/53828.jpg);
     backdrop-filter: blur(2px);
     
+    
 }
 
 .bodyNintendo {
@@ -14,8 +15,7 @@ body {
     width: 35em;
     background: rgb(96, 224, 60);
     margin: auto;
-    box-shadow: 1em 1em 1em 1em  rgba(64, 84, 64, 0.458);
-    box-shadow: 0 0 2em 1em rgba(9, 93, 9, 0.445);
+    box-shadow: 0 0 2em 1.5em rgba(9, 93, 9, 0.445);
     border-radius: 5% 5% 15% 15%;
     background: linear-gradient(to right, rgb(167, 237, 167) 5%, rgb(96, 224, 60) 50%);
     display: flex;
@@ -270,7 +270,16 @@ body {
     cursor: pointer;
     box-shadow: 0 0 0.2em 0.1em rgba(255, 255, 255, 0.701);
  }
- 
+
+ /* .buttonB:active, .buttonA:active { 
+   height: 3.5em;
+   width: 3.5em;
+ }*/
+ .encenderPantalla{
+   
+   background-color: blue;
+ }
+
  active{
    height: 0.4vh;
    margin-top: 3.6vh;
@@ -484,6 +493,7 @@ body {
     width: 8em;
     height: 8em;
     transform: rotate(-1deg);
+    /* transform: skewX(3deg); */
     margin-right: -3em;
     margin-top: 2em;
  }
