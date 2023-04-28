@@ -5,9 +5,8 @@ body {
     margin: auto;
     padding: 2em;
     background-image: url(../img/53828.jpg);
+    background-size: cover;
     backdrop-filter: blur(2px);
-    
-    
 }
 
 .bodyNintendo {
@@ -62,11 +61,12 @@ body {
     margin-top: 10em;
     margin-right: -2em;
     margin-left: -6em;
-    background: rgb(175, 4, 4);
     box-shadow: 0em 0em 0.2em 0.2em rgb(45, 8, 8);
     border-radius: 50%;
-    animation-name: flash;
-    animation-duration: 10s;
+}
+
+.ledPowerOn {
+   background-color: rgb(206, 17, 27);
 }
 
 .powerName {
@@ -74,15 +74,15 @@ body {
     width: 3em;
     color: rgb(204, 204, 204);
     font-size: 1.1em;
-    margin-top: 8.2em;
+    margin-top: 8.5em;
     margin-right: -3em;
     display: flex;
     justify-content: end;
     align-items: end;
 
 }
- 
-.animated {
+
+/* .animated {
     -webkit-animation-duration: 10s;
     animation-duration: 10s;
     -webkit-animation-fill-mode: backwards;
@@ -115,14 +115,12 @@ body {
 .flash {
     -webkit-animation-name: flash;
     animation-name: flash;
-}
+} */
 
 .screen {
     height: 18em;
     width: 18em;
     padding: 3em;
-    /* border: solid 0.4em rgb(10, 10, 10); */
-    /* background: rgb(162, 161, 161); */
     box-shadow: 0 0 0.4em 0.1em black;
     background-image: linear-gradient(to bottom right, rgb(158, 157, 157), rgba(53, 53, 53, 0.801));
     margin-bottom: 2em;
@@ -160,29 +158,28 @@ body {
     font-size: 1em;
 }
 
+.c, .o, .l, .o1, .r {
+   font-size: small;
+}
+
 .c {
-    font-size: small;
     font-style: italic;
     color: rgb(195, 10, 136);
  }
 
  .o {
-    font-size: small;
     color: rgb(71, 11, 131);
  }
 
  .l {
-    font-size: small;
     color: rgb(158, 222, 61);
  }
 
  .o1 {
-    font-size: small;
     color: rgb(255, 255, 61);
  }
 
  .r {
-    font-size: small;
     color: rgb(96, 142, 243);
  }
 
@@ -217,7 +214,7 @@ body {
  .nintendoLogo { 
     height: 2em;
     width: 10em;
-    margin-top: 1em;
+    margin-top: 2.5em;
     display: flex;
     align-items: center;
     box-shadow: 0em 0em 0.2em 0.2em rgba(22, 167, 22, 0.556);
@@ -237,14 +234,16 @@ body {
 
  /* Here I add css style fot the secondMiddlePart */
 
- .secondMiddlePart {
+ .secondMiddlePart, .leftMiddlePart{
     height: 9em;
+ }
+
+ .secondMiddlePart {
     width: 30em;
     display: flex;
  }
 
  .leftMiddlePart {
-    height: 9em;
     width: 10em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -266,15 +265,11 @@ body {
  }
 
  .a2:hover, .a4:hover, .a6:hover, .a8:hover, .buttonB:hover, .buttonA:hover {
-    background-color: #524f4d;
+    background-color: #5b5958;
     cursor: pointer;
     box-shadow: 0 0 0.2em 0.1em rgba(255, 255, 255, 0.701);
  }
 
- /* .buttonB:active, .buttonA:active { 
-   height: 3.5em;
-   width: 3.5em;
- }*/
  .screenOn {
    background-color: white;
    background-image: url(../img/nintendoLogo.gif);
@@ -282,17 +277,19 @@ body {
    background-size: 19em;
  }
 
- active{
-   height: 0.4vh;
-   margin-top: 3.6vh;
-  }
+.up, .right, .left, .down {
+   width: 0; 
+   height: 0;
+}
+
+.up, .right, .down {
+   margin-top: 0.2em;
+}
+
 .up {
-    width: 0; 
-    height: 0; 
     border-left: 1em solid transparent;
     border-right: 1em solid transparent;
     border-bottom: 2em solid #353433;
-    margin-top: 0.2em;
     margin-left: 0.2em;
 }
 
@@ -304,8 +301,6 @@ body {
  }
 
  .left {
-    width: 0; 
-    height: 0; 
     border-top: 1em solid transparent;
     border-bottom: 1em solid transparent;
     border-right: 2em solid #353433;
@@ -325,7 +320,6 @@ body {
     width: 2.4em;
     border-radius: 50%;
     background-color: #353433;
-    
  }
 
  .a6 {
@@ -337,12 +331,9 @@ body {
  }
 
  .right {
-    width: 0; 
-    height: 0; 
     border-left: 2em solid #353433;
     border-top: 1em solid transparent;
     border-bottom: 1em solid transparent;
-    margin-top: 0.2em;
     margin-left: 0.2em;
 }
 
@@ -355,13 +346,10 @@ body {
  }
 
  .down {
-    width: 0; 
-    height: 0; 
     border-left: 1em solid transparent;
     border-top: 2em solid #353433;
     border-right: 1em solid transparent;
     border-bottom: 1em solid transparent;
-    margin-top: 0.2em;
     margin-left: 0.2em;
  }
  
@@ -383,29 +371,24 @@ body {
     width: 4em;
     background-color: #353433;
     border-radius: 50%;
+    border: solid 0.1em gray;
+    box-shadow: 0.2em 0.3em 1em 0 rgba(52, 50, 50, 0.529);
  }
 
  .buttonB {
-    border: solid 0.1em gray;
     margin-top: 2.5em;
-    box-shadow: 1em 0.5em 1em 0 rgba(52, 50, 50, 0.529);
  }
-
- .buttonLetterB {
-    width: 3em;
-    height: 4em;
-    font-size: 3em;
-    margin-top: 0.1em;
-    margin-left: 0.3em;
- }
-
+ 
  .buttonA {
-    border: solid 0.1em gray;
-    margin-left: 1em;
-    box-shadow: 1em 0.5em 1em 0 rgba(52, 50, 50, 0.529);
- }
+   border: solid 0.1em gray;
+   margin-left: 1em;
+}
 
- .buttonLetterA {
+ .buttonB:active, .buttonA:active, .a2:active, .a4:active, .a6:active, .a8:active, .selectButton:active, .startButton:active {
+      background: linear-gradient(to right, rgb(114, 113, 113), rgb(36, 35, 35));
+  }
+ 
+ .buttonLetterB, .buttonLetterA {
     width: 3em;
     height: 4em;
     font-size: 3em;
@@ -416,7 +399,6 @@ body {
 /* Here I start to modify second part of th console */
 
  #secondPart {
-    height: em;
     width: 30em;
     margin-top: 2em;
     display: flex;
@@ -446,7 +428,7 @@ body {
     border: solid 0.1em gray;
     margin-right: 0.6em;
     margin-top: 2.5em;
-    box-shadow: 1em 0.5em 1em 0 rgba(52, 50, 50, 0.529);
+    box-shadow: 0.2em 0.3em 1em 0 rgba(52, 50, 50, 0.529);
  }
 
  .selectButton:hover, .startButton:hover {
@@ -460,7 +442,7 @@ body {
 }
 
 .finalPart {
-   height: 2em;
+   height: 5em;
    width: 10em;
    display: flex;
    justify-content: space-around;
@@ -468,25 +450,23 @@ body {
    margin-top: -1.6em;
 }
 
-
- .startButtonName {
+.startButtonName, .selectButtonName {
     height: 1em;
     width: 2.9em;
-    margin-right: 0.6em;
     font-weight: bold;
-    font-size: 1em;
     font-family:Arial, Helvetica, sans-serifss;
     color: rgba(22, 167, 22, 0.556);
 }
 
+ .startButtonName {
+    margin-right: 0.6em;
+    font-size: 1em;
+}
+
 .selectButtonName{
-   height: 1em;
-    width: 2.9em;
     margin-right: 1.1em;
     font-weight: bold;
     font-size: 1em;
-    font-family:Arial, Helvetica, sans-serifss;
-    color: rgba(22, 167, 22, 0.556);
 }
 
 /* Nintendo speaker css style */
@@ -538,7 +518,6 @@ body {
    border-radius: 50%;
    align-content: space-around;
  }
-
 
  * {
     border: 0;
