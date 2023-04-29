@@ -1,50 +1,50 @@
 # Geekshubs Academy FSD 04-2023
 
-## Primer proyecto-Videoconsola con CSS
+## First project - Game Console with CSS
 
-## Tabla de contenidos
+## Table of Contents
 
-- [Inspiración:sparkles:](#inspiración)
-- [Proceso:hammer:](#proceso)
-- [Funcionamiento:bulb:](#desarrollo)
-- [Licencia y Copyright📃](#licencia-y-copyright)
+- [Inspiration:sparkles:](#inspiration)
+- [Process:hammer:](#proceso)
+- [Functionality:bulb:](#functionality)
+- [License y Copyright📃](#license-y-copyright)
 
-### Inspiración
+### Inspiration
 
-La inspiración ha sido basada en la videoconsola Nintendo Game Boy Color del año 1998, pero aplicando un color y gradiente personalizado.
+The inspiration has been based on the Nintendo Game Boy Color video console from 1998, but applying a custom color and gradient.
 
 > ![image](https://i.ibb.co/FhpHg19/game-Boy-Insp.png)
 
-### Proceso
+### Process
 
-Se ha utilizado herramientas com HTML, CSS y conocimientos básicos del JavaScript para el proceso de creación de esta videoconsola.
+Tools such as HTML, CSS and basic knowledge of JavaScript have been used for the process of creating this game console.
 
-- Primero se ha dado el tamaño al cuerpo de la consola, posteriormente dividido en varias secciónes para que el trabajo sea más fluido a la hora del diseño con CSS.
-- Se ha utilizado tanto **display-flex**, como **display-grid**, aunque principalmente esta diseñada con valores del **display-flex**. **Display-grid** se ha utilizado para el diseño de la cruceta.
-- Los elementos que se puede observar están creados con HTML y CSS, no se han utilizado imágenes insertadas del logo del Nintendo, se ha hecho de este modo para poder practicar mejor el funcionamiento del display-flex, con sus margenes y similares.
-- Se han utilizado conocimientos básicos del JavaScript para poder hacer una mínima interacción con el usuario.
+- First the body of the console has been given the size, later it was divided into several sections for fluid work while designing with CSS.
+- Both **display-flex** and **display-grid** have been used, although it is mostly designed with **display-flex** values. **Display-grid** has been used for the layout of the crosshead.
+- The elements that can be observed are created with HTML and CSS, inserted images of the Nintendo logo have not been used, it has been done this way to practice the operation of display-flex, with its margins and the rest of its properties.
+- Basic knowledge of JavaScript has been used to perform minimal user interaction.
 
-**Ejemplos: *Display - grid y Display - flex***
+**Examples: *Display - grid y Display - flex***
 > ![image](./img/display-grid.png) 
 > ![image](./img/display-flex.png)
 
-### Funcionamiento
+### Functionality
 
-Con esta videoconsola Nintendo Game Boy Color se ha conseguído una interracción mínima con el usuario, se puede ejecutarse desde nuestro navegador web y el usuario puede interactuar con la consola de siguiente modo:
+With this Nintendo Game Boy Color game console minimal user interaction has been achieved, it can be run from our web browser and the user can interact with the console as follows:
 
-- Los botones que aparecen en la consola **cambián de aspecto al clicar** pulsando con el curso sobre ellos, asi conseguimos un efecto **real**.
-- Los botones **start** y **select** a parte de la función general, realizan una animación al pulsar sobre ellos.
-- Con el boton **start** se ejecute animación del encendido original de la consola, además se ilumína **led** del símbolo **POWER**.
-- Con el botón **select** se ejecute una animación diferente del Super Mario
+- The buttons that appear on the console **change their appearance when clicked** by clicking with the cursor on them, so we get a **real** effect.
+- The **start** and **select** buttons, apart from their general function, perform an animation when clicked on them.
+- With the **start** button, the animation of the original power on of the console is executed, in addition the **led** of the **POWER** symbol lights up.
+- With the **select** button a different animation of Super Mario is displayed.
 
-***Ejemplo con el boton start***:
+***Examples with the start button***:
 
 > ![image](./img/start.png) ![image](./img/start1.png)
 
-***Ejemplo con el boton select***:
+***Examples with the select button***:
 
 > ![image](./img/select.png) ![image](./img/select1.png)
 
-### Licencia y Copyright
+### License y Copyright
 
-*Los GIFs utilizados en la réplica de esta videoconsola, son propiedad de Nintendo Co., Ltd.*
+*The GIFs used in the replica of this game console are the property of Nintendo Co., Ltd.*
