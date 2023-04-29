@@ -1,7 +1,6 @@
 function onScreenNintendo(){
     let screen = document.getElementById("idScreen");
     screen.classList.add("screenOn");
-    
  }
 
  function ledOnSwitch() {
@@ -17,4 +16,6 @@ function onScreenNintendo(){
 function startAll() {
     onScreenNintendo();
     ledOnSwitch();
+    
 }
+

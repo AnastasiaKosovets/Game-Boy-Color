@@ -1,6 +1,6 @@
-# Geekshubs Academy FSD 04-2023
+<h1 align="center">Geekshubs Academy FSD 04-2023</h1>
 
-## First project - Game Console with CSS
+<h1 align="center">First project - Game Console with CSS</h1>
 
 ## Table of Contents
 
@@ -25,8 +25,8 @@ Tools such as HTML, CSS and basic knowledge of JavaScript have been used for the
 - Basic knowledge of JavaScript has been used to perform minimal user interaction.
 
 ***Examples: Display - grid y Display - flex***
-> ![image](./img/display-grid.png) 
-> ![image](./img/display-flex.png)
+> ![image](./img/d-grid.png) 
+> ![image](./img/d-flex.png)
 
 ### Functionality
 
