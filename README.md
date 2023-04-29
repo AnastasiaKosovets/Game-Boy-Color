@@ -18,7 +18,7 @@ The inspiration has been based on the Nintendo Game Boy Color video console from
 
 ### Process
 
-Tools such as HTML, CSS and basic knowledge of JavaScript have been used for the process of creating this game console.
+Tools such as HTML~5~, CSS3 and basic knowledge of JavaScript have been used for the process of creating this game console.
 
 - First the body of the console has been given the size, later it was divided into several sections for fluid work while designing with CSS.
 - Both **display-flex** and **display-grid** have been used, although it is mostly designed with **display-flex** values. **Display-grid** has been used for the layout of the crosshead.
