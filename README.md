@@ -24,7 +24,7 @@ Tools such as HTML, CSS and basic knowledge of JavaScript have been used for the
 - The elements that can be observed are created with HTML and CSS, inserted images of the Nintendo logo have not been used, it has been done this way to practice the operation of display-flex, with its margins and the rest of its properties.
 - Basic knowledge of JavaScript has been used to perform minimal user interaction.
 
-**Examples: *Display - grid y Display - flex***
+***Examples: Display - grid y Display - flex***
 > ![image](./img/display-grid.png) 
 > ![image](./img/display-flex.png)
 
