@@ -7,6 +7,7 @@
 - [Inspiration:sparkles:](#inspiration)
 - [Process:hammer:](#proceso)
 - [Functionality:bulb:](#functionality)
+- [Used technology🪀](#sed-technology)
 - [License y Copyright📃](#license-y-copyright)
 
 ### Inspiration
@@ -44,6 +45,21 @@ With this Nintendo Game Boy Color game console minimal user interaction has been
 ***Examples with the select button***:
 
 > ![image](./img/select.png) ![image](./img/select1.png)
+
+### Used technology
+
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src= "https://img.shields.io/badge/javascipt-EFD81D?style=for-the-badge&logo=javascript&logoColor=black"/>
+</a>
+<a href="https://github.com/">
+    <img src= "https://user-images.githubusercontent.com/121863208/227808612-8d3f0fee-99d9-45d8-8274-6584c9ac0b38.svg"/>
+</a>
+<a href="https://git-scm.com/downloads">
+    <img src= "https://user-images.githubusercontent.com/121863208/227808620-cd6e5d5c-dd63-4a9d-b19d-0983807cae95.svg"/>
+</a>
+<a href="https://developer.mozilla.org/es/docs/Web/CSS">
+    <img src= "https://user-images.githubusercontent.com/121863208/227808642-a8dcfecb-74b9-4796-8b2b-7bfe5cf1b4ba.svg"/>
+</a>
 
 ### License y Copyright
 
