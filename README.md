@@ -1,6 +1,6 @@
 # Geekshubs Academy FSD 04-2023
 
-##Primer proyecto - Videoconsola con CSS
+## Primer proyecto-Videoconsola con CSS
 
 ## Tabla de contenidos
 
@@ -24,8 +24,9 @@ Se ha utilizado herramientas com HTML, CSS y conocimientos básicos del JavaScri
 - Los elementos que se puede observar están creados con HTML y CSS, no se han utilizado imágenes insertadas del logo del Nintendo, se ha hecho de este modo para poder practicar mejor el funcionamiento del display-flex, con sus margenes y similares.
 - Se han utilizado conocimientos básicos del JavaScript para poder hacer una mínima interacción con el usuario.
 
-> ![image](./img/display-grid.png) **Display - grid**
-> ![image](./img/display-flex.png) **Display - flex**
+**Ejemplos: *Display - grid y Display - flex***
+> ![image](./img/display-grid.png) 
+> ![image](./img/display-flex.png)
 
 ### Funcionamiento
 
@@ -36,14 +37,14 @@ Con esta videoconsola Nintendo Game Boy Color se ha conseguído una interracció
 - Con el boton **start** se ejecute animación del encendido original de la consola, además se ilumína **led** del símbolo **POWER**.
 - Con el botón **select** se ejecute una animación diferente del Super Mario
 
-**Ejemplo con el boton start**:
+***Ejemplo con el boton start***:
 
 > ![image](./img/start.png) ![image](./img/start1.png)
 
-**Ejemplo con el boton select**:
+***Ejemplo con el boton select***:
 
 > ![image](./img/select.png) ![image](./img/select1.png)
 
 ### Licencia y Copyright
 
-Los GIFs utilizados en la réplica de esta videoconsola, son propiedad de Nintendo Co., Ltd.
+*Los GIFs utilizados en la réplica de esta videoconsola, son propiedad de Nintendo Co., Ltd.*
