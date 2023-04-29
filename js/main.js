@@ -4,7 +4,6 @@ function onScreenNintendo(){
     
  }
 
-
  function prueba() {
     let ledPower = document.getElementById("switchOn");
     ledPower.classList.add("ledPowerOn");
@@ -13,4 +12,9 @@ function onScreenNintendo(){
 function startAll() {
     onScreenNintendo();
     prueba();
+}
+
+function selectAll() {
+    let screen = document.getElementById("idScreen");
+    screen.classList.add("selectOn");
 }
