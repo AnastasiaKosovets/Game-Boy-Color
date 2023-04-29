@@ -60,6 +60,9 @@ With this Nintendo Game Boy Color game console minimal user interaction has been
 <a href="https://developer.mozilla.org/es/docs/Web/CSS">
     <img src= "https://user-images.githubusercontent.com/121863208/227808642-a8dcfecb-74b9-4796-8b2b-7bfe5cf1b4ba.svg"/>
 </a>
+<a href="http://www.w3.org/html/logo/">
+<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="80" height="30" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+</a>
 
 ### License y Copyright
 
