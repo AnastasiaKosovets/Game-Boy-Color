@@ -16,6 +16,5 @@ function onScreenNintendo(){
 function startAll() {
     onScreenNintendo();
     ledOnSwitch();
-    
 }
 

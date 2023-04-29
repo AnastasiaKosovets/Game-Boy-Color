@@ -281,10 +281,11 @@ body {
  .a5 {
     height: 2em;
     width: 2.2em;
+    border-radius: 50%;
     margin-top: 0.2em;
     margin-left: 0.1em;
     background-color: rgb(114, 113, 113);
-    box-shadow: 0 0 0.1em 0.3em rgb(114, 113, 113);
+    box-shadow: 0 0 0.6em 0.9em rgb(114, 113, 113);
     z-index: 3;
  }
 
