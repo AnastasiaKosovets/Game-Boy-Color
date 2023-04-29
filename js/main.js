@@ -4,17 +4,17 @@ function onScreenNintendo(){
     
  }
 
- function prueba() {
+ function ledOnSwitch() {
     let ledPower = document.getElementById("switchOn");
     ledPower.classList.add("ledPowerOn");
  }
 
-function startAll() {
-    onScreenNintendo();
-    prueba();
-}
-
-function selectAll() {
+ function selectAll() {
     let screen = document.getElementById("idScreen");
     screen.classList.add("selectOn");
+} 
+
+function startAll() {
+    onScreenNintendo();
+    ledOnSwitch();
 }

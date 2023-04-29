@@ -15,7 +15,6 @@ body {
     margin: auto;
     box-shadow: inset 0 0.2em 0.4em 1.1em rgba(9, 93, 9, 0.445);
     border-radius: 5% 5% 15% 15%;
-    /* background: linear-gradient(to right, rgb(167, 237, 167) 5%, rgb(96, 224, 60) 50%); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,10 +42,8 @@ body {
     width: 30em;
     margin: auto;
     background: rgb(33, 32, 32);
-    /* border: solid 0.3em black; */
     box-shadow: inset 0 0.2em 1em 0.5em black;
     border-radius: 5% 5% 15% 15%;
-    /* box-shadow: 0em 0.5em 0.5em 0.5em rgba(128, 128, 128, 0.449); */
     display: flex;
     justify-content: space-around;
     align-items: center; 
@@ -229,29 +226,25 @@ body {
  .a2 {
     background-color: rgb(114, 113, 113);
     border-radius: 30% 30% 0% 0%;
-    /* box-shadow: inset 0 0 0.3em 0.1em black; */
     margin-top: 1em;
  }
 
- /* .a2:hover, .a4:hover, .a6:hover, .a8:hover, .buttonB:hover, .buttonA:hover {
-    background-color: #5b5958;
-    cursor: pointer;
-    box-shadow: 0 0 0.2em 0.1em rgba(255, 255, 255, 0.701);
- } */
-
  .screenOn {
-   background-color: white;
-   background-image: url(../img/nintendoLogo.gif);
-   background-repeat: no-repeat;
-   background-size: 19em;
+    background-color: white;
+    background-image: url(../img/nintendoLogo.gif);
+    background-repeat: no-repeat;
+    background-size: 19em;
+ }
+
+ .screenOf {
+   background-color: #353433;
  }
 
  .selectOn {
-   background-color: rgb(159, 217, 244);
-   background-image: url(../img/marioGIff.gif);
-   background-size: cover;
-   background-repeat: no-repeat;
-   /* background-size: 17em; */
+    background-color: rgb(159, 217, 244);
+    background-image: url(../img/marioGIff.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
  }
 
 .up, .right, .left, .down {
@@ -273,7 +266,6 @@ body {
  .a4 {
     background-color: rgb(114, 113, 113);
     border-radius: 30% 0% 0% 30%;
-    /* box-shadow: inset 0 0 0.3em 0.1em black; */
     margin-left: 1em;
  }
 
@@ -305,7 +297,6 @@ body {
  .a6 {
     background-color: rgb(114, 113, 113);
     border-radius: 0% 30% 30% 0%;
-    /* box-shadow:inset  0 0 0.3em 0.1em black; */
     margin-right: 1.6em;
     z-index: 2;
  }
@@ -320,7 +311,6 @@ body {
  .a8 {
     background-color: rgb(114, 113, 113);
     border-radius: 0% 0% 30% 30%;
-    /* box-shadow: inset 0 0 0.3em 0.1em black; */
     margin-bottom: 1rem;
     z-index: 1;
  }
@@ -360,12 +350,12 @@ body {
  }
  
  .buttonA {
-   border: solid 0.1em gray;
-   margin-left: 1em;
+    border: solid 0.1em gray;
+    margin-left: 1em;
 }
 
  .buttonB:active, .buttonA:active, .a2:active, .a4:active, .a6:active, .a8:active, .selectButton:active, .startButton:active {
-      background: linear-gradient(to right, rgb(151, 149, 149), rgb(36, 35, 35));
+    background: linear-gradient(to right, rgb(151, 149, 149), rgb(36, 35, 35));
   }
  
  .buttonLetterB, .buttonLetterA {
@@ -408,28 +398,21 @@ body {
     border: solid 0.1em gray;
     margin-right: 0.6em;
     margin-top: 2.5em;
-    /* box-shadow: 0.2em 0.3em 1em 0 rgba(52, 50, 50, 0.529); */
     border: solid 0.1em rgb(34, 33, 33);
     box-shadow: inset 0 0em 0.2em 0.1em rgba(13, 10, 10, 0.967);
  }
-
- /* .selectButton:hover, .startButton:hover {
-    background-color: #615d5a;
-    cursor: pointer;
-    box-shadow: 0 0 0.2em 0 white;
- } */
 
  .middleSecondPart .selectButton {
    display: grid;
 }
 
 .finalPart {
-   height: 5em;
-   width: 10em;
-   display: flex;
-   justify-content: space-around;
-   margin-left: 1em;
-   margin-top: -1.6em;
+    height: 5em;
+    width: 10em;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1em;
+    margin-top: -1.6em;
 }
 
 .startButtonName, .selectButtonName {
@@ -462,42 +445,42 @@ body {
  }
 
  .pointsBlack {
-   height: 0.5em;
-   width: 0.5em;
-   border-radius: 50%;
-   background-color: rgb(47, 46, 46);
-   box-shadow: 0 0 0.4em 0.2em rgba(42, 42, 42, 0.438);
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    background-color: rgb(47, 46, 46);
+    box-shadow: 0 0 0.4em 0.2em rgba(42, 42, 42, 0.438);
  }
 
  .pointsGreen {
-   height: 0.5em;
-   width: 0.5em;
-   border-radius: 50%;
-   background-color: rgba(49, 129, 3, 0.567);
-   box-shadow: 0 0 0.4em 0.2em rgba(128, 186, 94, 0.937);
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    background-color: rgba(49, 129, 3, 0.567);
+    box-shadow: 0 0 0.4em 0.2em rgba(128, 186, 94, 0.937);
  }
 
  .point1, .point3, .point5, .point7 {
-   height: 1em;
-   width: 8em;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
+    height: 1em;
+    width: 8em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
  }
 
   .point2, .point4, .point6  {
-   height: 1em;
-   width: 8em;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
+    height: 1em;
+    width: 8em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
  }
 
  .points {
-   height: 0.5em;
-   width: 0.5em;
-   border-radius: 50%;
-   align-content: space-around;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    align-content: space-around;
  }
 
  * {
