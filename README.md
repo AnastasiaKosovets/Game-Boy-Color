@@ -5,9 +5,9 @@
 ## Table of Contents
 
 - [Inspiration:sparkles:](#inspiration)
-- [Process:hammer:](#proceso)
+- [Process:hammer:](#process)
 - [Functionality:bulb:](#functionality)
-- [Used technology🪀](#sed-technology)
+- [Used technology🪀](#used-technology)
 - [License y Copyright📃](#license-y-copyright)
 
 ### Inspiration
